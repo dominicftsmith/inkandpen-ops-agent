@@ -1,0 +1,1 @@
+[{"query": "Fix the schema validation bug in the Pydantic model", "expected_tool_use": [], "session_id": "test_1"}]
