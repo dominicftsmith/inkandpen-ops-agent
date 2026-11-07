@@ -1,3 +1,10 @@
 
 .env
 submission/.env
+venv/
+__pycache__/
+*.pyc
+.adk/
+submission.zip
+results/
+data/
