@@ -1,6 +1,6 @@
 agent_class: LlmAgent
 name: InkSchemaAnalyzer
-model: gemma-4-31b-it-qat-w4a16-ct
+model: gemma-4-e4b-it-qat-w4a16-ct
 description: "Fast AST code graph and symbol lookup sub-agent."
 instruction: !include ../prompts/analyzer.md
 generate_content_config: !include ../configs/sampling.yaml
