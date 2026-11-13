@@ -1,7 +1,7 @@
 agent_class: LlmAgent
 name: PenPatchCoder
-model: gemma-4-31b-it-qat-w4a16-ct
-description: "Precision surgical patch coder and test executor."
+model: Gemma-4-e4b-it-qat-w4a16-ct
+description: "Code patching and diff application sub-agent."
 instruction: !include ../prompts/coder.md
 generate_content_config: !include ../configs/sampling.yaml
 tools:
